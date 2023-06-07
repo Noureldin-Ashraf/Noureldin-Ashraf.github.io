@@ -1,0 +1,179 @@
+body{
+    font-family:"Montserrat";
+    font-weight:700;
+}
+.container-fluid{
+    padding: 3% 15%;
+}
+
+h1{
+    font-family:"Montserrat";
+    font-size:3.5rem;
+    font-weight:900;
+    line-height:1.5;
+}
+h2{
+    font-family:"Montserrat";
+    font-size:2.8rem;
+    font-weight:700;
+    line-height:1.5;
+}
+h3{
+    font-family:"Ubuntu";
+    font-weight:bold;
+    font-size:2.5rem;
+}
+h4{
+    font-family:"Montserrat";
+    font-weight:700;
+    font-size:1.5rem;
+}
+h5{
+    font-family:"Montserrat";
+    font-weight:300;
+    font-size:1.3rem;
+    line-height:1.7;
+}
+p{
+    color:#8f8f8f;
+}
+/* Title Section */
+#title{
+    background-color:#222831;
+    color:#fff
+}
+/* Navigation Bar */
+.navbar{
+    padding:0 0 4.5rem
+}
+
+.navbar-brand{
+    font-family:"Ubuntu";
+    font-size:2.5rem;
+    font-weight:bold;
+}
+
+.nav-item{
+    padding: 0 18px;
+}
+
+.nav-link{
+    font-family:"Montserrat";
+    font-size:1.2rem;
+    font-weight:300;
+}
+
+/* Title Image */
+.title-image{
+    width:60%;
+    padding-bottom:5% ;
+}
+.title-desc{
+    text-align: center;
+}
+
+/* Skills Section */
+#skills{
+    padding:6% 10%;
+    background-color: white;
+
+}
+.skill-box{
+    text-align:center;
+    padding:3%;
+}
+
+.skill-title{
+    text-align:center;
+    margin-bottom:2%;
+}
+
+.icon{
+    color: #00ADB5;
+    margin-bottom:0.5rem;
+}
+.icon:hover{
+    color:#222831;
+}
+
+/* Projects Section */
+#projects{
+    text-align:center;
+    background-color:#393E46;
+    color: #fff;
+}
+.projects-title{
+    text-align:center;
+    padding-top:6%;
+}
+.project-image{
+    width:10%;
+    border-radius:100%;
+    margin:20px;
+}
+
+.carousel-item{
+    padding:2% 10%;
+}
+
+.lead{
+    text-align: left;
+}
+
+.project-title{
+    text-align: center;
+}
+/* Technical Skills Section */
+#tech-skills{
+    padding:100px;
+    text-align:center;
+}
+.tech-rows{
+    padding:5% 5%;
+}
+.tech-icon{
+    color: #00ADB5;
+}
+.tech-padding{
+    padding-bottom:2%;
+}
+
+
+/* Footer Section */
+#footer{
+    background-color:#393E46;
+    padding:3% 15%;
+    text-align:center;
+    color: #fff;
+}
+.social-icon{
+    margin:30px 10px;
+}
+.social-link{
+    color:white;
+}
+.social-link:hover{
+    color:#00ADB5;
+}
+
+/* Media Query to change css based on screen size */
+@media (max-width:1028px){
+    #title{
+        text-align:center;
+    }
+    .title-image{
+        transform: rotate(0deg);
+        margin-left:0%
+    }
+}
+
+/* Code snipped design */
+pre code {
+    font-family:"JetBrains Mono";
+    font-size: 0.813;
+    background-color: #1d1e22;
+    border: 1px solid #999;
+    display: block;
+    padding: 20px;
+    color:white;
+  }
